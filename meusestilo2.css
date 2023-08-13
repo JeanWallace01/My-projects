@@ -46,6 +46,7 @@ header {
 }
 
 header > p {
+    padding: 20px;
     padding-top: 30px;
     font-size: 20px;
     font-family: var(--fonte-google);
@@ -91,6 +92,7 @@ main {
 }
 
 main p {
+  padding: 10px;  
   margin: 10px 0px;
   text-align: justify;
   text-indent: 30px;
@@ -104,7 +106,16 @@ h1 {
 }
 
 .degrade1 {
+    margin: 5px ;
     padding: 6px;
+    border-radius: 0px 10px 0px 10px;
+    font-family: 'neon2';
+    background-image: linear-gradient(to right, var(--cor3), transparent);
+}
+
+.degrade2 {
+    margin: -5px ;
+    padding: 9px;
     border-radius: 0px 10px 0px 10px;
     font-family: 'neon2';
     background-image: linear-gradient(to right, var(--cor3), transparent);
@@ -113,8 +124,11 @@ h1 {
 
 
 
+
+
 h2 {
-    padding: 11px;
+    margin: 5px;
+    padding: 20px;
 
 }
 
@@ -231,7 +245,7 @@ footer {
 }
 
 .lista1 {
-    padding: 20px;
+    padding: 35px;
     margin: 5px;
     list-style-type: '\1F3A7';
     
@@ -265,7 +279,7 @@ footer {
 
 
 .lista2 {
-    padding: 20px;
+    padding: 35px;
     margin: 5px;
      list-style-type: '\1F3A7';
 }
