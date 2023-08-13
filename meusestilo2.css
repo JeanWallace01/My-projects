@@ -1,0 +1,397 @@
+@charset "UTF-8";
+
+
+
+@font-face {
+    font-family: 'neon';
+    src: url(fontes/NEON\ CLUB\ MUSIC_italic.otf) format(opentype);
+}
+
+@font-face {
+    font-family: 'neon2';
+    src: url(fontes/NEON\ CLUB\ MUSIC.otf) format(opentype);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+   --cor1: #FF974D;
+   --cor2:#FF6900;
+   --cor3:#CC5500;
+   --cor4:#804B26;     
+   --cor5:#803500;
+   --cor6:  #ffff; 
+
+   --fonte-neon:'neon';
+   --font-padrao: Arial, Verdana,Helvetica; 
+   --fonte-google: 'Bebas Neue', sans-serif;
+}
+
+
+body {
+  background-color: #ff974d93;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor1));
+    min-height: 130px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+header > p {
+    padding-top: 30px;
+    font-size: 20px;
+    font-family: var(--fonte-google);
+}
+
+header > h1 {
+    padding-top: 5px;
+    color: #ffffffe8;
+    font-family: var(--fonte-google);
+    font-size: 2em;
+    font-weight: bold;
+    box-shadow: 0px 0px 0px 0px black;
+    
+}
+
+nav {
+    padding: 23px;
+    background-color: var(--cor1);
+}
+
+nav > a { 
+    border-radius: 0px 10px 0px 10px ;
+    text-decoration: none;
+    padding: 8px;
+    color: #ffffff;
+}
+
+
+nav > a:hover {
+    background-color: var(--cor5);
+    color: var(--cor2);
+    transition-duration: .6s;
+}
+
+main {
+    box-shadow: 1px 5px 7px 2px rgba(0, 0, 0, 0.432);
+    background-color: #ffffff;
+    border: 10px;
+    padding: 20px;
+    margin: auto;
+    min-width: 300px;
+    max-width: 1000px;
+}
+
+main p {
+  margin: 10px 0px;
+  text-align: justify;
+  text-indent: 30px;
+  line-height: 26px;
+}
+
+
+h1 {
+    text-indent: 4px;
+    font-family: 'neon2';   
+}
+
+.degrade1 {
+    padding: 6px;
+    border-radius: 0px 10px 0px 10px;
+    font-family: 'neon2';
+    background-image: linear-gradient(to right, var(--cor3), transparent);
+}
+
+
+
+
+h2 {
+    padding: 11px;
+
+}
+
+ul > li > a {
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none;
+}
+
+ul > li > a:hover {
+    text-decoration: underline;
+    color: #000000;
+} 
+
+ul > li > a:active {
+    color: #ffff00;
+}
+
+ul > li > a:visited {
+    color: #058a00;
+}
+
+
+
+h3 {
+    border-radius: 0px 0px 0px 0%;
+    background-color: var(--cor5);
+    padding: 8px;
+    margin: -10px -10px 0px -9px;
+}
+
+
+
+
+article > p {
+    text-indent: 16px;
+}
+
+main img {
+    margin: auto;
+   
+}
+
+aside {
+    background-color: var(--cor1);
+    border-radius: 0px 0px 11px 11px;
+    padding: 10px;
+
+}
+
+aside > ul {
+    list-style-position: inside;
+    columns: 2;
+}
+
+aside > p {
+    color: #ffffff;
+    font-weight: bold;
+    padding: 8px;
+}
+
+aside > p > a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+aside > p > a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+aside > p > a:active {
+    text-decoration: underline;
+    color: #ffff00;
+}
+
+aside > p > a:visited {
+    text-decoration: underline;
+    color: #058a00;
+}
+
+
+aside > h3 {
+    font-family: var(--fonte-padrão);
+}
+
+
+
+div.video {
+    position: relative;
+    padding:20px;
+    margin: 0px -20px 30px -20px;
+    background-color: var(--cor1);
+    margin: 0px -20px -20px -20px; /*para centralizar o video*/
+    padding-bottom: 57%;
+
+}
+
+div.video > iframe {
+    position: absolute;
+    top:5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    border-radius: 0px 10px 0px 10px;
+}
+
+footer {
+    background: var(--cor5);
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    color:  var(--cor6);
+}
+
+.lista1 {
+    padding: 20px;
+    margin: 5px;
+    list-style-type: '\1F3A7';
+    
+}
+
+.ex1 {
+    padding: 12px;
+}
+
+.ex2 {
+    padding: 12px;
+}
+
+.ex3 {
+    padding: 12px;
+}
+
+.ex4 {
+    padding: 12px;
+}
+
+.ex5 {
+    padding: 12px;
+}
+
+.ex6 {
+    padding: 12px;
+}
+
+
+
+
+.lista2 {
+    padding: 20px;
+    margin: 5px;
+     list-style-type: '\1F3A7';
+}
+
+.exlista21 {
+    padding: 12px;
+}
+
+.exlista22 {
+    padding: 12px;
+}
+
+.exlista23 {
+    padding: 12px;
+}
+
+.exlista24 {
+    padding: 12px;
+}
+
+
+
+
+.lista3 {
+    padding: 20px;
+    margin: 5px;
+     list-style-type: '\1F3A7';
+}
+
+
+
+
+.exlista31 {
+    padding: 12px;
+}
+
+.exlista32 {
+    padding: 12px;
+}
+
+.exlista33 {
+    padding: 12px;
+}
+
+.exlista34 {
+    padding: 12px;
+}
+
+.exlista35 {
+    padding: 12px;
+}
+
+.exlista36 {
+    padding: 12px;
+}
+
+.exlista37 {
+    padding: 12px;
+}
+
+.fonte1 {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'neon2';
+} 
+
+
+
+.lista4 {
+    padding: 20px;
+    margin: 5px;
+     list-style-type: '\1F3A7';
+}
+
+.exlista41 {
+    padding: 12px;
+}
+
+.exlista42 {
+    padding: 12px;
+}
+
+.exlista43 {
+    padding: 12px;
+}
+
+.exlista44 {
+    padding: 12px;
+}
+
+.exlista45 {
+    padding: 12px;
+}
+
+.exlista46 {
+    padding: 12px;
+}
+
+.exlista47 {
+    padding: 12px;
+}
+
+.exlista48 {
+    padding: 12px;
+}
+
+.exlista49 {
+    padding: 12px;
+}
+
+.exlista410 {
+    padding: 12px;
+}
+
+.exlista411 {
+    padding: 12px;
+}
+
+span {
+    font-weight: bold;
+    background-color: var(--cor1);
+
+    padding: 2px;
+}
+
+
+abbr {
+    text-decoration: none;
+}
