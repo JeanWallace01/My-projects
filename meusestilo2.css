@@ -151,6 +151,10 @@ ul > li > a:visited {
     color: #058a00;
 }
 
+ul > li a::after{
+    content: '\1F517';
+}
+
 
 
 h3 {
@@ -209,6 +213,11 @@ aside > p > a:visited {
     text-decoration: underline;
     color: #058a00;
 }
+
+aside > p > a::after {
+    content: '\1F517';
+}
+
 
 
 aside > h3 {
