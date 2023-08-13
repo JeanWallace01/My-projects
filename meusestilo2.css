@@ -151,7 +151,7 @@ ul > li > a:visited {
     color: #058a00;
 }
 
-ul > li a::after{
+ul > li a::after{ 
     content: '\1F517';
 }
 
